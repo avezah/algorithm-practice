@@ -1,12 +1,6 @@
 # 1002 A+B for Polynomials (25)
 
-<style>
-h2 {border-bottom: none}
-h3 {border-bottom: none}
-</style>
-
 ![1002.png](https://i.loli.net/2019/09/19/DoT7cOlPpsM91YG.png)
-
 
 ---
 
