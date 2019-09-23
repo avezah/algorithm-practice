@@ -1,21 +1,26 @@
 # 1002 A+B for Polynomials (25)
 
+<style>
+h2 {border-bottom: none}
+h3 {border-bottom: none}
+</style>
+
 ![1002.png](https://i.loli.net/2019/09/19/DoT7cOlPpsM91YG.png)
 
 
 ---
 
 
-**题意**  
+### 题意  
 合并多项式。  
 K表示项数，N表示指数，a表示系数。  
 
-**样例解释**  
+### 样例解释  
 2: 1.5  
 1: 2.4+0.5=2.9  
 0: 3.2  
 
-**思路**  
+### 思路  
 1. 用`i`和`j`指针分别从左到右扫描两个多项式，`k`指针用于依次生成结果R
 2. 比较两指针对应项的系数
 3. 将系数大的项加入到R多项式，然后右移该项对应的指针以及`k`指针
@@ -25,7 +30,7 @@ K表示项数，N表示指数，a表示系数。
 ---
 
 
-**参考代码**
+### 参考代码
 ```C++
 #include<cstdio>
 #include<algorithm>
