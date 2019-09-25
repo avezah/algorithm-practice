@@ -1,9 +1,8 @@
 # 1002 A+B for Polynomials (25)
 
-![1002.png](https://i.loli.net/2019/09/19/DoT7cOlPpsM91YG.png)
+[@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805526272000000)
 
----
-
+关键字：TwoPointers
 
 ### 题意  
 合并多项式。  

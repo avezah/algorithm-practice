@@ -1,16 +1,27 @@
+# 1059 Prime Factors (25)
+
+[@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805415005503488)  
+
+关键字：素数表
+
+### 题意  
+分解质因数
+
+### 参考代码
+```C++
 #include<cstdio>
 #include<cmath>
 
-const int MAX = 100010;//sizeof(int) ~ 2*10^9; 10^5 > sqrt(2*10^9)
+const int MAX = 100010;//sizeof(int) = 2*10^9; 10^5 > sqrt(2*10^9)
 
 struct Factor
 {
     int x;
     int cnt;
-}fac[10];//2*3*5*7*11*13*17*19*23*29 > sizeof(int)
+}fac[10];//最小的十个素数相乘大于int范围
 
 
-int FindPrime(int prime[], int n){
+int FindPrime(int prime[], int n){//构建素数表
     int pNum = 0;
     int p[n] = {0};
     for(int i = 2; i < n; i++)
@@ -23,7 +34,6 @@ int FindPrime(int prime[], int n){
 }
 
 int main(){
-    
     int prime[MAX];
     int pNum = FindPrime(prime, MAX);
     int n;
@@ -35,18 +45,18 @@ int main(){
     else printf("%d=", n);
 
     int sqr = (int)sqrt(1.0*n), num = 0;
-    for(int i = 0; i < pNum && prime[i] < sqr; i++){
-        if(n%prime[i] == 0){
+    for(int i = 0; i < pNum && prime[i] < sqr; i++){//i小于素数总数且遍历的素数小于sqrt(n)
+        if(n%prime[i] == 0){//找到素数因子
             fac[num].x = prime[i];
             fac[num].cnt = 0;
-            while(n%prime[i] == 0){
+            while(n%prime[i] == 0){//计算素数因子个数
                 n = n/prime[i];
                 fac[num].cnt++;
             }
             num++;
         }
     }
-    if(n != 1){
+    if(n != 1){//n不为1表示无法被小于n的素数乘积表示，此时n本身即为素数
         fac[num].x = n;
         fac[num].cnt = 1;
         num++;
@@ -59,3 +69,4 @@ int main(){
         
     return 0;
 }
+```
