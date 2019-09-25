@@ -1,4 +1,4 @@
-# 1001 1069 The Black Hole of Numbers (20)
+# 1069 The Black Hole of Numbers (20)
 
 [@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805400954585088)
 
