@@ -12,7 +12,7 @@ int main(){
     memset(p, 0, MAX);
     if(s[0] != 'P') p[0] = 0;
     else p[0] = 1;
-    for(int i = 1; s[i] != '\0'; i++){//count number of 'P' on the left of s[i]
+    for(int i = 1; s[i] != '\0'; i++){//计算s[i]及其左侧的'P'的总数
         if(s[i] == 'P') p[i] = p[i-1] + 1;
         else p[i] = p[i-1];
     }
@@ -24,10 +24,10 @@ int main(){
     memset(t, 0, MAX);
     if(s[len-1] == 'T') t[len-1] = 1;
     else t[len-1] = 0;
-    for(int i = len-2; i >= 0; i--){//count number of 'T' on the right of s[i]
+    for(int i = len-2; i >= 0; i--){//计算s[i]及其右侧的'T'的总数
         if(s[i] == 'T') t[i] = t[i+1] + 1;
         else t[i] = t[i+1];
-        if(s[i] == 'A') n = (n+t[i]*p[i])%MOD;
+        if(s[i] == 'A') n = (n+t[i]*p[i])%MOD;//如果是'A'，则统计'PAT'总数
     }
     // for(int i = len-1; i >= 0; i--) printf("%d", t[i]);
     // printf("\n");
