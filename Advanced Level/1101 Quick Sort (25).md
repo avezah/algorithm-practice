@@ -2,7 +2,7 @@
 
 [@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805366343188480)
 
-关键字：TwoPointers，递推
+关键字：TwoPointers、递推
 
 ### 题意  
 找出数组中的每一个比左侧所有数大、比右侧所有数小的数

@@ -2,7 +2,7 @@
 
 [@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805373582557184)
 
-关键字：TwoPointers，递推
+关键字：TwoPointers、递推
 
 ### 题意  
 计算给出字符串中尽可能多地PAT组合数量，例如：
