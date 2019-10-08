@@ -1,6 +1,6 @@
 # 1020 Tree Traversals (25)
 
-[@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805528788582400)
+[@PTA](https://pintia.cn/problem-sets/994805342720868352/problems/994805485033603072)
 
 关键字：后续遍历、中序遍历、层次遍历、中序后序建树
 
