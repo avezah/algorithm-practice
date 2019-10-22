@@ -14,6 +14,7 @@ PAT解题思路
 1053| Path of Equal Weight      |30|DFS 剪枝
 1059| Prime Factors             |25|素数表
 1060| Are They Equal            |25|字符串
+1066| Root of AVL Tree          |25|AVL树、模板题📐
 1069| The Black Hole of Numbers |20|字符串
 1093| Count PAT's               |25|TwoPointers 递推
 1101| Quick Sort                |25|TwoPointers 递推
