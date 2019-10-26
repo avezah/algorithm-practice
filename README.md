@@ -6,8 +6,8 @@ PAT解题思路
 :-:|:-|:-:|:-|
 1001| A+B Format                |20|无  
 1002| A+B for Polynomials       |25|TwoPointers
+1005| Spell It Right            |20|字符串 map
 1020| Tree Traversals           |25|中序遍历 后序遍历 层次遍历 中序后序建树
-1005| PAT Ranking               |20|字符串 map
 1025| PAT Ranking               |25|排序
 1032| Sharing                   |25|静态链表
 1043| Is It a Binary Search Tree|25|BST 建树 先序遍历 后序遍历
