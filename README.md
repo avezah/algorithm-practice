@@ -2,10 +2,11 @@
 
 PAT解题思路
 
-|  题号  | 题目  | 分值 | 关键字 |
-:-:|:-|:-:|:-|
+|题号|题目|分值|关键字|
+:-:|:-|:-:|:-
 1001| A+B Format                |20|无  
 1002| A+B for Polynomials       |25|TwoPointers
+1004| Counting Leaves           |30|树
 1005| Spell It Right            |20|字符串 map
 1020| Tree Traversals           |25|中序遍历 后序遍历 层次遍历 中序后序建树
 1025| PAT Ranking               |25|排序
