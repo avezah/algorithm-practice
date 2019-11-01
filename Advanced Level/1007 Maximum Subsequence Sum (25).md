@@ -38,16 +38,16 @@ int main(){
     int nowBegin = num[0], maxBegin = num[0], maxEnd = num[0];
     int nowSum = 0, maxSum = -1;
     for(int i = 0; i < n; i++){
-        if(num[i] >= 0) allNegtive = false;
+        if(num[i] >= 0) allNegtive = false; //检查是否存在非负数
         nowSum += num[i];
-        if(nowSum > maxSum){
-            maxSum = nowSum;
-            maxEnd = num[i];
-            maxBegin = nowBegin;
+        if(nowSum > maxSum){        //当前和大于记录的最大和
+            maxSum = nowSum;        //更新最大和
+            maxEnd = num[i];        //记录最大和结束数字
+            maxBegin = nowBegin;    //更新最大和开始数字
         }
-        else if(nowSum < 0){
-            nowSum = 0;
-            nowBegin = num[i+1];
+        else if(nowSum < 0){        //当前和小于0时
+            nowSum = 0;             //将Sum清零
+            nowBegin = num[i+1];    //将下一个数字作为最大和子序列的备选开始数字
         }
     }
     if(allNegtive){
