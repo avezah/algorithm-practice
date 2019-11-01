@@ -9,6 +9,7 @@ PAT解题思路
 1004| Counting Leaves           |30|树
 1005| Spell It Right            |20|字符串 map
 1006| Sign In and Sign Out      |25|字符串 排序
+1007| Maximum Subsequence Sum   |25|最大和子序列
 1020| Tree Traversals           |25|中序遍历 后序遍历 层次遍历 中序后序建树
 1025| PAT Ranking               |25|排序
 1032| Sharing                   |25|静态链表
