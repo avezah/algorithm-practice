@@ -23,3 +23,4 @@ PAT解题思路
 1069| The Black Hole of Numbers |20|字符串
 1093| Count PAT's               |25|TwoPointers 递推
 1101| Quick Sort                |25|TwoPointers 递推
+1107| Social Clusters           |30|并查集 模板题📐
